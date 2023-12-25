@@ -1,0 +1,20 @@
+/** @jsx jsx */
+import { jsx } from "theme-ui"
+import type { HeadFC } from "gatsby"
+import { Seo } from "./seo"
+
+type PostsProps = {
+  TODO
+}
+
+const Homepage = ({ posts }: PostsProps) => {
+  return (
+    <div>
+      <pre>{JSON.stringify(posts, null, 2)}</pre>
+    </div>
+  )
+}
+
+export default Homepage
+
+export const Head: HeadFC = () => <Seo />

@@ -1,0 +1,49 @@
+{
+  "private": true,
+  "name": "specimens",
+  "description": "Leverage the wide variety of powerful React components to build your design system. Display your colors, typography or any other design tokens with ease and focus on the design system itself, not on how to showcase it. Works seamlessly with MDX.",
+  "version": "0.3.21",
+  "author": "LekoArts",
+  "license": "0BSD",
+  "starter-name": "gatsby-starter-specimens",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
+    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@lekoarts/gatsby-theme-specimens": "^6.1.1",
+    "@lekoarts/rehype-meta-as-attributes": "^3.0.0",
+    "@lekoarts/themes-utils": "^3.0.0",
+    "@loadable/component": "^5.15.3",
+    "@mdx-js/react": "^2.3.0",
+    "@theme-ui/mdx": "~0.15.3",
+    "@theme-ui/preset-system": "0.15.3",
+    "gatsby": "^5.12.12",
+    "gatsby-plugin-catch-links": "^5.12.0",
+    "gatsby-plugin-manifest": "^5.12.3",
+    "gatsby-plugin-mdx": "^5.12.3",
+    "gatsby-plugin-theme-ui": "~0.15.3",
+    "gatsby-plugin-webpack-statoscope": "^1.0.3",
+    "gatsby-source-filesystem": "^5.12.1",
+    "prism-react-renderer": "^2.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-live": "^4.1.5",
+    "remark-gfm": "^3.0.1",
+    "remark-slug": "^7.0.1",
+    "theme-ui": "~0.15.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.3",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.3.3"
+  }
+}

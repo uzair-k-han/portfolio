@@ -1,0 +1,8 @@
+/// <reference types="cypress" />
+/// <reference types="@testing-library/cypress" />
+
+describe(`gatsby-theme-{{kebabCase name}}`, () => {
+  it(`should work`, () => {
+    cy.visit(`/`).assertRoute(`/`)
+  })
+})

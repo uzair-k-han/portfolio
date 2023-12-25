@@ -1,0 +1,16 @@
+import React from "react"
+import Homepage, { Head } from "../../../components/homepage"
+
+type Props = {
+  data: {
+    [key: string]: string
+  }
+}
+
+export default function MinimalBlogCoreHomepage({ data }: Props) {
+  const { TODO } = data
+
+  return <Homepage posts={TODO} />
+}
+
+export { Head }

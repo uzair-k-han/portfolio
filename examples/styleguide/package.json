@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "name": "styleguide",
+  "description": "Instantly create a styleguide page based on your Theme UI configuration. Zero-config — just install the theme and see your Theme UI config displayed in a beautiful manner.",
+  "version": "0.2.19",
+  "author": "LekoArts",
+  "license": "0BSD",
+  "starter-name": "gatsby-starter-styleguide",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
+    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@lekoarts/gatsby-theme-styleguide": "^5.1.2",
+    "@mdx-js/react": "^2.3.0",
+    "@theme-ui/mdx": "~0.15.3",
+    "gatsby": "^5.12.12",
+    "gatsby-plugin-theme-ui": "~0.15.3",
+    "gatsby-plugin-webpack-statoscope": "^1.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "theme-ui": "~0.15.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.3",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.3.3"
+  }
+}
